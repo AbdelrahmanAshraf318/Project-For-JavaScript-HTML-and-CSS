@@ -48,10 +48,13 @@ body
 }
 .interface .collapse
 {
+    width: 100%;
+    height: 50px;
     margin-left: 300px;
 }
 .nav-item
 {
+    width: 20%;
     padding-left: 50px;
 }
 .navbar-nav
@@ -61,6 +64,7 @@ body
 .interface .collapse ul li a
 {
     color: white;
+    font-size: 14px;
 }
 
 .interface .collapse ul li a:hover
@@ -120,7 +124,9 @@ body
     position: absolute;
     top: 380px;
     left: 500px;
-    border-radius: 5%;
+    background-color: #8ab92d;
+    border: 1px solid transparent;
+    border-radius: 50px;
 }
 .interface button:hover
 {
@@ -145,4 +151,70 @@ body
 {
     font-size: 14px;
     color: grey;
+}
+.cards
+{
+    width: 100%;
+    height: 2000px;
+}
+.container
+{
+    padding-top: 50px;
+}
+.Cardlinks
+{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    transition: width 350ms ease-out;
+}
+.Cardlinks .link
+{
+    width: 5px;
+    color: black;
+    margin-left: 70px;
+    text-decoration: none;
+    transition: width 350ms ease-out;
+}
+.Cardlinks .link:hover
+{
+    border-bottom: 1px solid black;
+    
+}
+.Cardlinks .link:active
+{
+    color: #8ab92d;
+}
+.col-4 img
+{
+    border-radius: 10px;
+}
+.col-4 .boldWord .Link
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.boldWord
+{
+    margin-top: 20px;
+}
+.boldWord , .word
+{
+    width: 180px;
+    height: 30px;
+    margin: auto;
+}
+.boldWord
+{
+    margin-top: 20px;
+}
+.word
+{
+    margin-left: 120px;
+}
+.col-4 .word .boldLink
+{
+    text-decoration: none;
+    color: #777777;
 }
