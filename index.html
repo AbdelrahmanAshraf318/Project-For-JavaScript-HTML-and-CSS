@@ -75,137 +75,184 @@
           </div>
           <div class="cards">
             <div class="Cardlinks">
-              <a class="link" href="#">ALL</a>
-              <a class="link" href="#">VECTOR</a>
-              <a class="link" href="#">RASTER</a>
-              <a class="link" href="#">UI/UX</a>
-              <a class="link" href="#">PRINTING</a>
+              <a class="link" id="all" href="#">ALL</a>
+              <a onclick="getCooperateOnly()" class="link" id="coop" href="#">VECTOR</a>
+              <a class="link" id="pers" href="#">RASTER</a>
+              <a class="link" id="age" href="#">UI/UX</a>
+              <a class="link" id="por" href="#">PRINTING</a>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-4 cooperate">
-                  <img src="Images\p1.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">3D Helmet Design</a>
+            <div id="allCards">
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="Images\p1.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">3D Helmet Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Corporate</a>
+                    </div>
                   </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Corporate</a>
+                  <div class="col-4">
+                    <img src="Images\p2.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">2D Vinyl Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Personal</a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-4 Personal">
-                  <img src="Images\p2.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">2D Vinyl Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Personal</a>
-                  </div>
-                </div>
-                <div class="col-4 Agency">
-                  <img src="Images\p3.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">Creative Poster Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Agency</a>
+                  <div class="col-4">
+                    <img src="Images\p3.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">Creative Poster Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Agency</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-4 cooperate">
-                  <img src="Images\p5.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">3D Helmet Design</a>
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="Images\p5.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">3D Helmet Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Corporate</a>
+                    </div>
                   </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Corporate</a>
+                  <div class="col-4">
+                    <img src="Images\p4.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">2D Vinyl Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Personal</a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-4 Personal">
-                  <img src="Images\p4.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">2D Vinyl Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Personal</a>
-                  </div>
-                </div>
-                <div class="col-4 Agency">
-                  <img src="Images\p6.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">Creative Poster Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Agency</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-4 Agency">
-                  <img src="Images\p3.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">3D Helmet Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Corporate</a>
-                  </div>
-                </div>
-                <div class="col-4 cooperate">
-                  <img src="Images\p2.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">2D Vinyl Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Personal</a>
-                  </div>
-                </div>
-                <div class="col-4 Agency">
-                  <img src="Images\p1.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">Creative Poster Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Agency</a>
+                  <div class="col-4">
+                    <img src="Images\p6.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">Creative Poster Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Portal</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-4 Agency">
-                  <img src="Images\p2.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">3D Helmet Design</a>
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="Images\p3.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">3D Helmet Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Portal</a>
+                    </div>
                   </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Corporate</a>
+                  <div class="col-4">
+                    <img src="Images\p2.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">2D Vinyl Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">cooperate</a>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <img src="Images\p1.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">Creative Poster Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Agency</a>
+                    </div>
                   </div>
                 </div>
-                <div class="col-4 Agency">
-                  <img src="Images\p1.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">2D Vinyl Design</a>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="Images\p2.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">3D Helmet Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Agency</a>
+                    </div>
                   </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Personal</a>
+                  <div class="col-4">
+                    <img src="Images\p1.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">2D Vinyl Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Portal</a>
+                    </div>
                   </div>
-                </div>
-                <div class="col-4 Personal">
-                  <img src="Images\p3.jpg">
-                  <div class="boldWord">
-                    <a class="Link" href="#">Creative Poster Design</a>
-                  </div>
-                  <div class="word">
-                    <a class="boldLink" href="#">Agency</a>
+                  <div class="col-4">
+                    <img src="Images\p3.jpg">
+                    <div class="boldWord">
+                      <a class="Link" href="#">Creative Poster Design</a>
+                    </div>
+                    <div class="word">
+                      <a class="boldLink" href="#">Personal</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="cardDesign">
+            <div class="cardDesignImg">
+              <img src="Images\service-bg.jpg"> 
+              <div class="imgContent">
+                <h1>This is what we can do for you</h1>
+                <h4>Who are in extremely love with eco friendly system..</h4>
+              </div>
+            </div>
+             <div class="services-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="Images\s1.jpg">
+                            <h4>Vector Artworks</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                              Ut enim ad minim veniam quis nostrud exercitation.
+                            </p>
+                        </div>
+                        <div class="col-4">
+                          <img src="Images\s2.jpg">
+                          <h4>Corporate Identity</h4>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam quis nostrud exercitation.
+                          </p>
+                      </div>
+                      <div class="col-4">
+                        <img src="Images\s3.jpg">
+                        <h4>Art Direction Design</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam quis nostrud exercitation.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+             </div>
+          </div>
+        
         </section>
+        <script src="Javascript\index.js"></script>
     </body>
 </html>

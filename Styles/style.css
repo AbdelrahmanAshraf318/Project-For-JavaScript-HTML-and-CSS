@@ -218,3 +218,70 @@ body
     text-decoration: none;
     color: #777777;
 }
+.cardDesign
+{
+    width: 100%;
+    height: 750px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.cardDesign .cardDesignImg img
+{
+    width: 90%;
+    height: 70%;
+    margin-left: 70px;
+    filter: brightness(0.5);
+    position: absolute;
+    border-radius: 10px;
+    z-index: -2;
+}
+.imgContent
+{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    z-index: -1;
+}
+.imgContent h1 , h4
+{
+    text-align: center;
+    color: white;
+}
+.imgContent h4
+{
+    font-size: 14px;
+    color: gray;
+}
+.services-area
+{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    top: 300px;
+}
+.services-area .container .row .col-4 
+{
+    height: 100%;
+    box-shadow: 0px 10px 30px 0px rgb(138 185 45 / 20%);
+    background-color: white;
+    
+    padding: 30px;
+    border-radius: 10px;
+}
+.services-area .container .row .col-4 img
+{
+    margin-left: 120px;
+}
+.services-area .container .row .col-4 h4
+{
+    margin-left: 20px;
+    width: 250px;
+    padding-top: 10px;
+}
+.services-area .container .row .col-4 p
+{
+    width: 320px;
+    text-align: center;
+}
